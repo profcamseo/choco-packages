@@ -11,13 +11,12 @@ $packageArgs = @{
 
   softwareName  = 'screamingfrog*' 
 
-  #checksum      = '1F66975862EAC5E15C58E679DB436907AADE771E95DA3E78A8538B94AFEEE8F9'
-  #checksumType  = 'sha256' 
-  #checksum64    = '1F66975862EAC5E15C58E679DB436907AADE771E95DA3E78A8538B94AFEEE8F9'
-  #checksumType64= 'sha256' 
+  Get-ChecksumValid -File $fileFullPath -CheckSum $checksum -ChecksumType $checksumType
+  $fileFullPath = '\checksum.js'
+  checksum      = $checksum
+  checksumType  = $checksumType
 
   silentArgs    = "ScreamingFrogSEOSpider-VERSION.exe /S"
-  #validExitCodes= @(0, 3010, 1641)
 }
 
 Install-ChocolateyPackage @packageArgs 

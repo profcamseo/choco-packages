@@ -4,10 +4,14 @@
   <metadata>
     <id>screamingfrog</id>
     <version>16.2</version>
-    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
+    <packageSourceUrl>https://github.com/profcamseo/choco-package-screamingfrog</packageSourceUrl>
+    <owners>profcamseo</owners>
     <title>screamingfrog</title>
     <authors>Screaming Frog Ltd</authors>
     <projectUrl>https://www.screamingfrog.co.uk/seo-spider/</projectUrl>
+    <iconUrl>https://www.screamingfrog.co.uk/wp-content/uploads/2018/11/screaming-frog-logo-kg.jpg</iconUrl>
+    <copyright>Copyright 2021 Screaming Frog Ltd</copyright>
+    <docsUrl>https://www.screamingfrog.co.uk/seo-spider/user-guide/</docsUrl>
     <tags>screamingfrog seo</tags>
     <summary>SEO Spider Tool</summary>
     <description>The Screaming Frog SEO Spider is a website crawler that helps you improve onsite SEO, by extracting data and auditing for common SEO issues.</description>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>screamingfrog</id>
+    <version>16.2</version>
+    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
+    <title>screamingfrog</title>
+    <authors>Screaming Frog Ltd</authors>
+    <projectUrl>https://www.screamingfrog.co.uk/seo-spider/</projectUrl>
+    <tags>screamingfrog seo</tags>
+    <summary>SEO Spider Tool</summary>
+    <description>The Screaming Frog SEO Spider is a website crawler that helps you improve onsite SEO, by extracting data and auditing for common SEO issues.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

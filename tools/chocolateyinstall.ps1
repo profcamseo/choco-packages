@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://download.screamingfrog.co.uk/products/seo-spider/ScreamingFrogSEOSpider-16.2.exe'  
+$url        = 'https://download.screamingfrog.co.uk/products/seo-spider/ScreamingFrogSEOSpider-16.5.exe'  
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,10 +11,8 @@ $packageArgs = @{
 
   softwareName  = 'screamingfrog*' 
 
-  Get-ChecksumValid -File $fileFullPath -CheckSum $checksum -ChecksumType $checksumType
-  $fileFullPath = '\checksum.js'
-  checksum      = $checksum
-  checksumType  = $checksumType
+  checksum      = 'E868A2540CCFDA898D6B61CCCC05B936B961E3042750F95BB02D36B35507DC7E'
+  checksumType  = 'sha256' 
 
   silentArgs    = "ScreamingFrogSEOSpider-VERSION.exe /S"
 }

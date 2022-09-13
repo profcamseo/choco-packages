@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>screamingfrog</id>
-    <version>17.1</version>
+    <version>17.2</version>
     <packageSourceUrl>https://github.com/profcamseo/choco-package-screamingfrog</packageSourceUrl>
     <owners>profcamseo</owners>
     <title>screamingfrog</title>

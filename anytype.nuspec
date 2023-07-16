@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>anytype</id>
+    <version>0.33.0</version>
+    <packageSourceUrl>https://github.com/profcamseo/choco-package-anytype</packageSourceUrl>
+    <owners>profcamseo</owners>
+    <title>anytype</title>
+    <authors>Any Association</authors>
+    <projectUrl>https://anytype.io/</projectUrl>
+    <iconUrl>https://anytype.io/favicon-32x32.png</iconUrl>
+    <copyright>Any Association</copyright>
+    <docsUrl>https://doc.anytype.io/d/</docsUrl>
+    <tags>anytype</tags>
+    <summary>The everything note taking app</summary>
+    <description>Anytype is an object-based note-taking productivity tool that offers a new approach to note-taking, project management, and information organisation.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>screamingfrog</id>
-    <version>18.5</version>
-    <packageSourceUrl>https://github.com/profcamseo/choco-package-screamingfrog</packageSourceUrl>
+    <version>19.0</version>
+    <packageSourceUrl>https://github.com/profcamseo/choco-packages/tree/main/screamingfrog</packageSourceUrl>
     <owners>profcamseo</owners>
     <title>screamingfrog</title>
     <authors>Screaming Frog Ltd</authors>

@@ -14,7 +14,7 @@ $packageArgs = @{
   checksum      = '92AF1A3FD3F6531B2B02BF620EEE235068DE15A64E23F85C852BF291DE525C74'
   checksumType  = 'sha256' 
 
-  silentArgs    = "ScreamingFrogSEOSpider-VERSION.exe /S"
+  silentArgs    = "ScreamingFrogSEOSpider-VERSION.exe /VERYSILENT"
 }
 
 Install-ChocolateyPackage @packageArgs

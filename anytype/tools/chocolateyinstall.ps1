@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://download.anytype.io/?action=download&key=desktop&id=117644775'
+$url        = 'https://download.anytype.io/?action=download&key=desktop&id=121749205'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'anytype*' 
 
-  checksum      = '3C43E3657FEE6CE6E9BCFA93F1F704B2DDC41E50A8BE523DDE9A8C0BAD43E1C2'
+  checksum      = '01CA956B836E4D0E470334CFEE88F984446EC9A143603FAD340279A1AD36290E'
   checksumType  = 'sha256'
 }
 

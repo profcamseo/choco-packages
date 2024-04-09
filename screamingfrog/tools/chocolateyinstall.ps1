@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'screamingfrog*' 
 
-  checksum      = '968FA6907D638B84953DFD874821A732B3F45ABE0C72897F74589BA99E3A4169'
+  checksum      = 'D51F95839480AB4C3EC1F752ABCB38B44344B4DCCAE7A6FA4F8935FAAED6476B'
   checksumType  = 'sha256' 
 
   silentArgs    = "ScreamingFrogSEOSpider-VERSION.exe /VERYSILENT"

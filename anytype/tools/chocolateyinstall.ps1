@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://download.anytype.io/?action=download&key=desktop&id=127051254'
+$url        = 'https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%200.41.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'anytype*' 
 
-  checksum      = 'B6A926C8F4F8D0C3BC474A6B2227A9F38D5D36A5C06499BD5453B582F9078A46'
+  checksum      = 'D8CE393FAFE2E3397499B605FB078D8F3D5FF8D7886A944AC61DD41D9C058ADB'
   checksumType  = 'sha256'
 }
 
